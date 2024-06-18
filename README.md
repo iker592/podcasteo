@@ -34,3 +34,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+For podcasteo setup:
+
+For local dev:
+Install shadcn 
+```bash
+npx shadcn-ui@latest init
+```
+
+Install shadcn components, ie button: 
+```bash
+npx shadcn-ui@latest add button
+```
+
+For prod:
+Need to verify if above deps need to be installed in server.
+
+For vscode extensions:
+Install TailWind CSS IntelliSense
+Install  ES7+ React/Redux/React-Native by dsznajder
